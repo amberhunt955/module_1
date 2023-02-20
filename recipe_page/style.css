@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin-inline: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* outline: 2px dashed red; */
+}
+
+.img-container {
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#ingredients, #method {
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    width: min-content;
+    min-width: 300px;
+    padding-inline: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    animation: rainbowText linear 5s infinite alternate-reverse;
+}
+
+@keyframes rainbowText {
+    0% {
+        color: red;
+    }
+    17% {
+        color: orange;
+    }
+    33% {
+        color: yellow;
+    }
+
+    56% {
+        color: green;
+        letter-spacing: 3px;
+    }
+    67% {
+        color: blue;
+    }
+
+    82% {
+        color: indigo;
+    }
+    100% {
+        color: violet;
+    }
+
+}
