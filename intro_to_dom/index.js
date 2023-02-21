@@ -132,3 +132,29 @@ console.log(allLis);
 // We don't need to create an instance of an array first
 const arrayOfLis = Array.from(allLis);
 console.log(arrayOfLis);
+
+console.log("----------------------------");
+//* Create an element and add attributes
+
+// Create a new element
+const btn = document.createElement("button");
+btn.textContent = "Click Me!"
+
+// Add attribute to elements
+btn.setAttribute("class", "selected")
+console.log(btn);
+
+// Add the button to the DOM
+const body = document.querySelector("body");
+body.appendChild(btn); // append to whatever element you wish to be the parent
+console.log(body);
+
+// Get attribute from elements
+const att = titleEl.getAttribute("id");
+console.log(att);
+
+// True or false if element has attribute
+console.log(titleEl.hasAttribute("class"));
+
+
+
